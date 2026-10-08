@@ -1,0 +1,308 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Library Member Profile & Registration</title>
+
+
+    
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Library Member Profile</h1>
+
+
+        <p>
+            Welcome to our library membership page.
+            <b>Register today</b> to enjoy our library services.
+        </p>
+
+    
+        <div>
+            <p>
+                Library Membership is
+                <span>easy, fast and convenient.</span>
+            </p>
+        </div>
+
+        <p>
+            Visit our
+            <a href="https://www.google.com" target="_blank">
+                Library Website
+            </a>
+            for more information.
+        </p>
+    </header>
+
+
+    <hr>
+
+
+    
+    <section>
+
+        <h2>Member Profile</h2>
+
+    
+        <img
+            src="https://via.placeholder.com/150"
+            alt="Library Member Profile Picture"
+            width="150"
+            height="150"
+        >
+
+        <p>
+            <b>Member Name:</b> Md. Tawshif Hossain
+            
+        </p>
+
+        <p>
+            <i>Active Library Member</i>
+        </p>
+
+    </section>
+
+
+    <hr>
+
+
+    
+    <section>
+
+        <h2>Member Information</h2>
+
+        <table border="1" cellpadding="10">
+
+            <tr>
+                <th>Member ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Image</th>
+            </tr>
+
+            <tr>
+                <td>LIB001</td>
+                <td>Md. Tawshif Hossain</td>
+                <td>tawshif@gmail.com</td>
+                <td>
+                    <img
+                        src="https://via.placeholder.com/80"
+                        alt="Md. Tawshif Hossain"
+                        width="80"
+                        height="80"
+                    >
+                </td>
+            </tr>
+
+            <tr>
+                <td>LIB002</td>
+                <td>Aman Ahmed</td>
+                <td>aman@gmail.com</td>
+                <td>
+                    <img
+                        src="https://via.placeholder.com/80"
+                        alt="Aman Ahmed"
+                        width="80"
+                        height="80"
+                    >
+                </td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <hr>
+
+
+
+    <section>
+
+        <h2>Membership Registration Form</h2>
+
+    
+        <form action="" method="get">
+
+            <label for="name">Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+            >
+            <br><br>
+
+
+    
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+            <br><br>
+
+
+            <label for="password">Password:</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                required
+            >
+            <br><br>
+
+
+
+            <label for="age">Age:</label>
+            <input
+                type="number"
+                id="age"
+                name="age"
+                min="1"
+                max="100"
+                required
+            >
+            <br><br>
+
+
+    
+            <label for="dob">Date of Birth:</label>
+            <input
+                type="date"
+                id="dob"
+                name="dob"
+                required
+            >
+            <br><br>
+
+
+
+            <label>Gender:</label>
+
+            <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="Male"
+                required
+            >
+            <label for="male">Male</label>
+
+            <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="Female"
+            >
+            <label for="female">Female</label>
+
+            <input
+                type="radio"
+                id="other"
+                name="gender"
+                value="Other"
+            >
+            <label for="other">Other</label>
+
+            <br><br>
+
+
+    
+            <label for="membership">Membership Type:</label>
+
+            <select
+                id="membership"
+                name="membership"
+                required
+            >
+                <option value="">-- Select Membership --</option>
+                <option value="Regular">Regular</option>
+                <option value="Premium">Premium</option>
+                <option value="Student">Student</option>
+            </select>
+
+            <br><br>
+
+
+            <label for="profile">Upload Profile Picture:</label>
+
+            <input
+                type="file"
+                id="profile"
+                name="profile"
+                accept="image/*"
+            >
+
+            <br><br>
+
+
+
+            <label for="address">Address:</label>
+            <br>
+
+            <textarea
+                id="address"
+                name="address"
+                rows="5"
+                cols="40"
+                required
+            ></textarea>
+
+            <br><br>
+
+
+    
+            <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                value="accepted"
+                required
+            >
+
+            <label for="terms">
+                I agree to the Terms and Conditions.
+            </label>
+
+            <br><br>
+
+
+    
+            <input
+                type="submit"
+                value="Register"
+            >
+
+            <input
+                type="reset"
+                value="Reset"
+            >
+
+        </form>
+
+    </section>
+
+
+    <hr>
+
+    <footer>
+        <p>
+            <b>Library Membership System</b>
+        </p>
+
+        <p>
+            <i>Thank you for becoming a member!</i>
+        </p>
+    </footer>
+
+</body>
+
+</html>
